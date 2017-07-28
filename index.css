@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #e3e3e3; }
+  body header section.contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1e88e5;
+    height: 50px; }
+    body header section.contact span {
+      margin-right: 20px;
+      font-size: 15px;
+      font-weight: bold; }
+  body header section#navigation {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196f3;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    height: 84px;
+    width: 100%;
+    z-index: 1; }
+    body header section#navigation div {
+      width: 50%; }
+      body header section#navigation div ul {
+        display: flex;
+        justify-content: space-around; }
+        body header section#navigation div ul li {
+          text-transform: uppercase;
+          list-style: none; }
+          body header section#navigation div ul li a {
+            color: white; }
+  body main section header {
+    position: relative;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    color: #646464; }
+    body main section header i.fa {
+      font-size: 36px;
+      margin: 18px; }
+  body main section div.detail {
+    width: 70%;
+    height: 650px;
+    margin: 70px auto;
+    position: relative;
+    top: 250px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.16);
+    color: white;
+    display: flex;
+    background-color: white; }
+  body main section#aboutMe {
+    background-color: white;
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    body main section#aboutMe div.myImage {
+      position: relative;
+      top: -50px; }
+      body main section#aboutMe div.myImage img {
+        height: 200px;
+        width: 150px;
+        border-radius: 50%; }
+    body main section#aboutMe div.content {
+      color: #646464;
+      text-align: center;
+      position: relative;
+      top: -100px; }
+      body main section#aboutMe div.content h1 {
+        font-weight: bold; }
+      body main section#aboutMe div.content p {
+        margin: 30px 100px;
+        font-size: 15px; }
+      body main section#aboutMe div.content div {
+        display: flex;
+        justify-content: center; }
+        body main section#aboutMe div.content div div {
+          position: absolute;
+          bottom: 10%;
+          width: 50%; }
+          body main section#aboutMe div.content div div a {
+            text-decoration: none;
+            background-color: #2196f3;
+            color: white;
+            padding: 12px;
+            margin: 10px;
+            text-transform: uppercase;
+            border-radius: 5%;
+            transition: color 0.75s; }
+          body main section#aboutMe div.content div div a:hover {
+            color: black; }
+  body main section#skills div.detail {
+    background-color: #2196f3; }
+    body main section#skills div.detail div {
+      flex-grow: 0.5; }
+      body main section#skills div.detail div div.head {
+        display: flex; }
+        body main section#skills div.detail div div.head i {
+          font-size: 24px;
+          margin: 18px; }
+      body main section#skills div.detail div div.bar li {
+        list-style: none;
+        margin: 40px; }
+        body main section#skills div.detail div div.bar li div {
+          border: none;
+          height: 5px;
+          background-color: #4683c2;
+          width: 80%;
+          position: relative;
+          margin-top: 8px; }
+        body main section#skills div.detail div div.bar li i {
+          position: absolute;
+          margin: -4px; }
+        body main section#skills div.detail div div.bar li div.c {
+          background: linear-gradient(to right, white 0%, white 75%, #4683c2 75%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.c {
+          left: 75%; }
+        body main section#skills div.detail div div.bar li div.cplus {
+          background: linear-gradient(to right, white 0%, white 90%, #4683c2 90%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.cplus {
+          left: 90%; }
+        body main section#skills div.detail div div.bar li div.java {
+          background: linear-gradient(to right, white 0%, white 50%, #4683c2 50%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.java {
+          left: 50%; }
+        body main section#skills div.detail div div.bar li div.html {
+          background: linear-gradient(to right, white 0%, white 80%, #4683c2 80%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.html {
+          left: 80%; }
+        body main section#skills div.detail div div.bar li div.css {
+          background: linear-gradient(to right, white 0%, white 70%, #4683c2 70%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.css {
+          left: 70%; }
+        body main section#skills div.detail div div.bar li div.javascript {
+          background: linear-gradient(to right, white 0%, white 60%, #4683c2 60%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.javascript {
+          left: 60%; }
+        body main section#skills div.detail div div.bar li div.ruby {
+          background: linear-gradient(to right, white 0%, white 60%, #4683c2 50%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.ruby {
+          left: 60%; }
+        body main section#skills div.detail div div.bar li div.leadership {
+          background: linear-gradient(to right, white 0%, white 80%, #4683c2 80%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.leadership {
+          left: 80%; }
+        body main section#skills div.detail div div.bar li div.team {
+          background: linear-gradient(to right, white 0%, white 95%, #4683c2 92%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.team {
+          left: 92%; }
+        body main section#skills div.detail div div.bar li div.dedication {
+          background: linear-gradient(to right, white 0%, white 100%); }
+        body main section#skills div.detail div div.bar li i.dedication {
+          left: 100%; }
+        body main section#skills div.detail div div.bar li div.creativity {
+          background: linear-gradient(to right, white 0%, white 85%, #4683c2 85%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.creativity {
+          left: 85%; }
+        body main section#skills div.detail div div.bar li div.comm {
+          background: linear-gradient(to right, white 0%, white 75%, #4683c2 75%, #4683c2 100%); }
+        body main section#skills div.detail div div.bar li i.comm {
+          left: 75%; }
+  body main section#projects div.detail {
+    height: 300px; }
+    body main section#projects div.detail ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 44px;
+      font-size: 24px; }
+      body main section#projects div.detail ul li {
+        list-style: none;
+        margin: 6px; }
+  body main section#education main {
+    position: relative;
+    top: 250px;
+    margin-top: 44px;
+    height: 500px; }
+    body main section#education main div.line {
+      position: absolute;
+      left: 50%;
+      margin: 0;
+      height: 600px;
+      width: 5px;
+      text-align: center;
+      background-color: #c9c9c9; }
+    body main section#education main section {
+      width: 400px;
+      height: 200px;
+      position: absolute;
+      background-color: white;
+      transition: box-shadow 1s;
+      transition: background-color 0.5s;
+      color: #646464;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16); }
+      body main section#education main section div.hline {
+        background-color: #c9c9c9;
+        height: 2px;
+        width: 120px;
+        position: relative; }
+        body main section#education main section div.hline i {
+          position: absolute;
+          margin: -4px;
+          color: #2196f3; }
+      body main section#education main section h3 {
+        margin: 18px 24px 16px 24px;
+        font-weight: bold; }
+      body main section#education main section h4 {
+        margin: 16px;
+        font-weight: bold; }
+      body main section#education main section h5 {
+        margin: 10px 14px; }
+    body main section#education main section:hover {
+      background-color: #38de8a;
+      box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.16); }
+    body main section#education main section.first {
+      left: 9.5%;
+      text-align: right; }
+      body main section#education main section.first div.hline {
+        top: 50%;
+        left: 100%; }
+        body main section#education main section.first div.hline i {
+          left: 102%; }
+    body main section#education main section.second {
+      right: 9.5%;
+      top: 40%; }
+      body main section#education main section.second div.hline {
+        top: 50%;
+        right: 30%; }
+    body main section#education main section.third {
+      left: 9.5%;
+      top: 80%;
+      text-align: right; }
+      body main section#education main section.third div.hline {
+        top: 50%;
+        left: 100%; }
+        body main section#education main section.third div.hline i {
+          left: 102%; }
+  body main section#contactMe header {
+    margin-top: 150px;
+    margin-bottom: 20px; }
+  body main section#contactMe div.detail {
+    width: 100%;
+    margin: 0;
+    height: 200px;
+    background-color: #2196f3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    body main section#contactMe div.detail i {
+      color: white;
+      font-size: 44px;
+      transition: color 0.5s; }
+    body main section#contactMe div.detail i:hover {
+      color: black; }
+
+/*# sourceMappingURL=index.css.map */
