@@ -1,2 +1,2 @@
 My personal website:
- https://diksha2008.github.io/Resume/
+https://diksha2008.github.io/
